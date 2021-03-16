@@ -20,15 +20,15 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    void open() {
+    public void open() {
         driver.get("https://brain.com.ua/");
     }
 
-    void clickLoginToOpenForm() {
+    public void clickLoginToOpenForm() {
         loginForm.click();
     }
 
-    String returnUsername() {
+    public String returnUsername() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(username));
         return username.getText();

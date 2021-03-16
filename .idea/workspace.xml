@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66fd66f5-2fd9-4ef9-b94c-e6bb1a4cfeb1" name="Default Changelist" comment="" />
+    <list default="true" id="66fd66f5-2fd9-4ef9-b94c-e6bb1a4cfeb1" name="Default Changelist" comment="QAMadness">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615913608072</updated>
     </task>
+    <task id="LOCAL-00001" summary="QAMadness">
+      <created>1615914027149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615914027149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,10 +95,38 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QAMadness" />
+    <option name="LAST_COMMIT_MESSAGE" value="QAMadness" />
+  </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1615914685790">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615914685790" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1615914685789">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615914685789" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1615914685789">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615914685789" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1615914685790">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615914685790" />
     <state x="2378" y="179" key="SettingsEditor" timestamp="1615913857144">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2378" y="179" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615913857144" />
+    <state x="1891" y="162" width="937" height="627" key="Vcs.Push.Dialog.v2" timestamp="1615914288371">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1891" y="162" width="937" height="627" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615914288371" />
+    <state x="2201" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615913976795">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2201" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1615913976795" />
   </component>
 </project>

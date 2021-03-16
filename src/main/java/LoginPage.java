@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(xpath= "//div[@id = 'login-tab']//input[@class = 'input-field phone_mask']")
     WebElement loginField;
@@ -38,46 +38,46 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    void enterLoginUsername(String login) {
+    public void enterLoginUsername(String login) {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(loginField));
         loginField.click();
         loginField.sendKeys(login);
     }
 
-    void enterLoginPassword(String password) {
+    public void enterLoginPassword(String password) {
         passwordLoginField.sendKeys(password);
     }
 
-    void clickLogin() {
+    public void clickLogin() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(buttonLogin));
         buttonLogin.click();
     }
 
-    String returnError() {
+    public String returnError() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(errorMessage));
         return errorMessage.getText();
     }
 
-    void clickRemember(){
+    public void clickRemember(){
         rememberPassword.click();
     }
 
-    String returnMessage() {
+    public String returnMessage() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(message));
         return message.getText();
     }
 
-    String returnPhoneError() {
+    public String returnPhoneError() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(phoneErrorMessage));
         return phoneErrorMessage.getText();
     }
 
-    String returnPasswordError() {
+    public String returnPasswordError() {
         WebDriverWait driverWait = new WebDriverWait(driver, 10);
         driverWait.until(ExpectedConditions.visibilityOfAllElements(passwordErrorMessage));
         return passwordErrorMessage.getText();
